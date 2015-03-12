@@ -1,0 +1,9 @@
+This Application have two views (MainView and ImagePreview view).  I used 3rd party package "Newtsoft json parser"  (https://www.nuget.org/packages/Newtonsoft.Json/) to parse the json data received from GoogleImageSearch API. I used Windows Phone 7 environment to develop this solution.
+
+Main files: 
+Views :MainPage.xaml, Mainpage.xaml.cs, ImagePreview.xaml,  ImagePreview.xaml and 
+ViewModel : GoogleImageSearchViewModel.cs
+
+MainPage.xaml, MainPage.xaml.cs : For MainView to enter a search keyword and after search it shows a List of searched item. Each row in List contains Thumbnail and description of that image.
+ImagePreview.xaml,  ImagePreview.xaml : To show ImagePreview of the selected thumbnail from the List of Mainview and back button to go back on main view.
+GoogleImageSearchViewModel.cs : ViewModel class 
